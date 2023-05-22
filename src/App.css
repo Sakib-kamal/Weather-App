@@ -1,0 +1,70 @@
+* {
+  background-color: rgb(179, 237, 237);
+  margin-top: 1rem;
+}
+
+.App {
+    
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  
+ }
+
+ .home{
+  text-align: center;
+ }
+ button{
+  appearance: none;
+  background-color: rgb(4, 89, 61);
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+h1{
+  border: 20px solid rgb(4, 89, 61);
+  border-radius: 10px;
+  /* color: white; */
+}
+h3{
+  border: 10px double rgb(89, 51, 4);
+  border-radius: 10px;
+}
+.result{
+  margin:auto;
+  width: 500px;
+  height: 300px;
+  align-items: center;
+}
+.button-style{
+  align-items: center;
+  display: flex;
+ 
+  justify-content: space-around;
+  background-color: red;
+  
+}
+.error-message{
+  color: red;
+
+}
+.from-style{
+  
+}
